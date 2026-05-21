@@ -77,7 +77,11 @@ $$NDVI = \frac{NIR - VIS}{NIR + VIS}$$
 
 ## Result
 
-The output file translates the calculated NDVI values into a visual health map. The default color gradient represents the following:
+The output file translates the calculated NDVI values into a visual health map. 
+
+![NDVI Output Health Map](images/NDVI_output.jpg)
+
+The default color gradient represents the following:
 
 * **Gray (-1.0 to 0):** Non-photosynthetic matter (soil, water, shadows, or dead vegetation).
 * **Red (Low Positive):** Stressed, diseased, or damaged plants requiring attention.
