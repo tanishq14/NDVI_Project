@@ -21,10 +21,10 @@ graph TD
     F --> G(Apply Custom Colormap)
     G --> H[Pseudocolor Health Map]
 
-    %% Styling blocks to mimic architectural diagrams
-    classDef input output fill:#f5f5f5,stroke:#333,stroke-width:2px;
-    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
-    classDef compute fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    
+    classDef input fill:#f5f5f5,stroke:#333,stroke-width:2px,color:#000;
+    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000;
+    classDef compute fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000;
 
     class A,H input;
     class B,C,G process;
